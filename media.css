@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px){
+.main{
+    width: 100%;
+}
+}
+@media screen and (max-width: 768px){
+    .bar{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        row-gap: 5%;
+        height: 100%;
+    }
+    .bar > div{
+        width: 46%;
+        height: 40%;
+    }
+    .main_bar{
+        /*height: 650px;*/
+    }
+    .bar_bottom{
+        display: none;
+    }
+
+}
